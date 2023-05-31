@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+    <title>Scientific Calculator</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="calc.js"></script>
+</head>
+
+<body> 
+    <div>
+      <h1>SCIENTIFIC CALCULATOR</h1>
+    </div>
+
+    <div class = "Calculator">
+        
+        <div class = "io">
+            <input class ="display" id="show" type="text" onkeydown="execute(event)" autofocus><br>
+        </div>
+
+        <table class = "calc_table">
+            <tr>
+                
+                <td><button id="sin"  onclick= "show('sin(')">sin</button></td>
+                <td><button id="("    onclick= "show('(')">&#40;</button></td>
+                <td><button id=")"    onclick= "show(')')">&#41;</button></td>
+                <td><button id="%"    onclick= "show('%')">%</button></td>
+                <td><button id="CE"  onclick= "remove()">CE</button></td>
+                <td><button id="AC"   onclick= "ClearAll()">AC</button></td>
+            </tr>
+
+            <tr>
+                <td><button id="cos"  onclick= "show('cos(')">cos</button></td>
+                <td><button id="^"    onclick= "show('^')">^</button></td>
+                <td><button id="7"    onclick= "show('7')">7</button></td>
+                <td><button id="8"    onclick= "show('8')">8</button></td>
+                <td><button id="9"    onclick= "show('9')">9</button></td>
+                <td><button id="/"    onclick= "show('/')">/</button></td>
+            </tr>
+
+            <tr>
+                <td><button id="tan"  onclick= "show('tan(')">tan</button></td>
+                <td><button id="ln"  onclick= "show('ln(')">ln</button></td>
+                <td><button id="4"    onclick= "show('4')">4</button></td>
+                <td><button id="5"    onclick= "show('5')">5</button></td>
+                <td><button id="6"    onclick= "show('6')">6</button></td>
+                <td><button id="x"    onclick= "show('*')">*</button></td>
+            </tr>
+
+            <tr>
+                <td><button id="pi"   onclick= "show('pi')">pi</button></td>
+                <td><button id="log"  onclick= "show('log(')">log</button></td>
+                <td><button id="1"    onclick= "show('1')">1</button></td>
+                <td><button id="2"    onclick= "show('2')">2</button></td>
+                <td><button id="3"    onclick= "show('3')">3</button></td>
+                <td><button id="-"    onclick= "show('-')">-</button></td>
+            </tr>
+
+            <tr>
+                <td><button id="e"    onclick= "show('e')">e</button></td>
+                <td><button id="sqrt" onclick= "show('sqrt(')">sqrt</button></td>
+                <td><button id="0"    onclick= "show('0')">0</button></td>
+                <td><button id="."    onclick= "show('.')">.</button></td>
+                <td><button id="="    onclick= "calculate()">=</button><br></td>
+                <td><button id="+"    onclick= "show('+')">+</button></td>
+            </tr>
+
+        
+        </table>
+
+    </div>
+
+</body>
+</html>

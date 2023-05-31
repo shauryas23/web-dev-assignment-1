@@ -1,0 +1,62 @@
+body
+{
+    background-color: black;
+}
+
+h1
+{
+    text-align: center;
+    color: rgb(240, 244, 244);
+    text-shadow: 0ch;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.Calculator
+{
+    text-align: center;
+}
+
+.calc_table
+{
+    text-align: center;
+    align-items: center;
+    align-self: center;
+    align-content: center;
+    margin:0 auto;
+}
+
+table td
+ {
+    width: 50px;
+    height: 50px;
+    
+  }
+
+button
+{
+    width: 70px;
+    height: 50px;
+    color: rgb(253, 252, 253);
+    border-color: rgb(172, 110, 230);
+    background-color: blueviolet;
+    border-radius: 10px;
+    font-size: larger;
+
+
+}
+
+.display
+{
+    width: 430px;
+    height: 40px;
+    text-align: right;
+    margin:0 auto;
+    color: black;
+    border-color: rgb(172, 110, 230);
+    font-size: larger;
+    border-radius: 10px;
+    background-color: rgb(193, 157, 203);
+    font-weight: bolder;
+
+}
